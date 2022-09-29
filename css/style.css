@@ -7,6 +7,10 @@
 /* End Variables */
 
 /* Start Global Rules */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -458,3 +462,18 @@ body {
     color: var(--main-color);
 }
 /* END Footer */
+/* Start Scroller */
+.scroller {
+    width: 30px;
+    height: 30px;
+    background-color: var(--main-color);
+    color: White;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* END Scroller */
